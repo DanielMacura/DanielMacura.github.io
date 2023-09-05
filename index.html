@@ -137,8 +137,11 @@
 							-->
 
 
-							<model-viewer loading="lazy" src="models/church_of_st._michael_the_archangel.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="images/poster.webp" shadow-intensity="1" auto-rotate style="  width: 100%; height: 600px;">
-								<div class="progress-bar hide" slot="progress-bar">
+							<model-viewer loading="lazy" src="models/church_of_st._michael_the_archangel.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="images/poster.webp" shadow-intensity="1.5" camera-orbit="-54.78deg 79.61deg 94.65m" field-of-view="30deg" auto-rotate style="  width: 100%; height: 600px;">
+								<button class="Hotspot" slot="hotspot-2" data-position="-5.007158976098335m 35.89958263008903m -0.5758341266991762m" data-normal="0.9928307315487589m -0.10766559138184639m 0.051915883164538414m" data-visibility-attribute="visible">
+									<div class="HotspotAnnotation">Church of St. Michael the Archangel</div>
+								</button>
+								<div class="progress-bar" slot="progress-bar">
 									<div class="update-bar"></div>
 								</div>
 								<button slot="ar-button" id="ar-button">
@@ -146,10 +149,9 @@
 								</button>
 							</model-viewer>
 
-							<script loading="lazy" src="assets/js/model-vierer-script.js"></script>
+							<script  src="assets/js/model-vierer-script.js"></script>
 							<!-- Loads <model-viewer> for browsers: -->
-							<script type="module" loading="lazy" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
-
+							<script type="module" loading="lazy" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>						
 						</div>
 					</section>
 

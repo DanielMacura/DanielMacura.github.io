@@ -2,12 +2,16 @@
 const onProgress = (event) => {
   const progressBar = event.target.querySelector('.progress-bar');
   const updatingBar = event.target.querySelector('.update-bar');
-  updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
-  if (event.detail.totalProgress === 1) {
-    progressBar.classList.add('hide');
-    event.target.removeEventListener('progress', onProgress);
+
+  if (event.detail.totalProgress === 0) {
+    progressBar.style.display = 'block';
+    updatingBar.style.width = '0%';
   } else {
-    progressBar.classList.remove('hide');
+    updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
+
+    if (event.detail.totalProgress === 1) {
+      progressBar.style.display = 'none';
+    }
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
