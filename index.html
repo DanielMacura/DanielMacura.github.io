@@ -14,6 +14,8 @@
 			})(window,document,'script','dataLayer','GTM-WQ4PHVTL');</script>
 		<!-- End Google Tag Manager -->
 
+		<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
 		<title>Daniel Mačura - Computer Science Student</title>
 		<meta content="Daniel Mačura - Computer Science Student" property="og:title">
 		<meta content="https://www.macura.sk/images/portrait-full.webp" property="og:image">
@@ -133,7 +135,20 @@
 						</header>
 						<div class="content">
 							<p>I have experience creating photoscans with <strong>Reality Capture</strong> using a combination of image acquisition techniques involving DSLRs and drones. This allows me to capture objects of varying  sizes from an apple to a building or even create orthographic projections and export digital elevation models.</p>
+							<!--
 							<div class="sketchfab-embed-wrapper"> <iframe title="Church of St. Michael the Archangel" loading="lazy" fetchpriority="low" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="480" src="https://sketchfab.com/models/5ffd2789d3024a7fb041707a5ee5ef11/embed?autospin=1&ui_theme=dark"> </iframe> </div>
+							-->
+
+
+							<model-viewer loading="lazy" src="models/church_of_st._michael_the_archangel.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="images/poster.webp" shadow-intensity="1" auto-rotate style="  width: 100%; height: 600px;">
+								<div class="progress-bar hide" slot="progress-bar">
+									<div class="update-bar"></div>
+								</div>
+								<button slot="ar-button" id="ar-button">
+									View in your space
+								</button>
+							</model-viewer>
+
 						</div>
 					</section>
 
