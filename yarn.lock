@@ -639,6 +639,16 @@
     posthtml-render "^3.0.0"
     semver "^7.5.2"
 
+"@parcel/transformer-webmanifest@^2.9.3":
+  version "2.9.3"
+  resolved "https://registry.npmjs.org/@parcel/transformer-webmanifest/-/transformer-webmanifest-2.9.3.tgz"
+  integrity sha512-xkerfb+5OnCJFwOjN8PJQcitCvNuZxg+NIWjG2hMjKfeyqWT00C8uXTSTu8gYTrg0fdQd2c+URdoT/iv/Y7tPQ==
+  dependencies:
+    "@mischnic/json-sourcemap" "^0.1.0"
+    "@parcel/diagnostic" "2.9.3"
+    "@parcel/plugin" "2.9.3"
+    "@parcel/utils" "2.9.3"
+
 "@parcel/types@2.9.3":
   version "2.9.3"
   resolved "https://registry.npmjs.org/@parcel/types/-/types-2.9.3.tgz"
