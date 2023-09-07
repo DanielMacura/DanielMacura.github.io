@@ -18,8 +18,22 @@
 		
 
 		<title>Daniel Mačura - Computer Science Student</title>
-		<meta content="Daniel Mačura - Computer Science Student" property="og:title">
-		<meta content="https://www.macura.sk/images/portrait-full.webp" property="og:image">
+		<meta property="og:title" content="Daniel Mačura - Computer Science Student" />
+		<meta property="og:url" content="https://www.macura.sk/"/>
+		<meta property="og:description" content="Daniel Mačura is a computer science student at Brno University of Technology passionate about programing and photography."/>
+		<meta property="og:site_name" content="Daniel Mačura"/>
+		<meta property="og:image" content="https://www.macura.sk/images/portrait-low.webp" />
+		<meta property="og:image:secure_url" content="https://www.macura.sk/images/portrait-low.webp" />
+		<meta property="og:image:width" content="1568" />
+		<meta property="og:image:height" content="1568" />
+		<meta property="og:image:alt" content="Portrait of Daniel Mačura" />
+		<meta property="og:image:type" content="image/webp" />
+
+
+
+
+
+
 		<meta charset="utf-8" />
 		<meta name="robots" content="index, follow">
 		<meta name="language" content="English">
@@ -82,7 +96,7 @@
 								srcset="images/portrait-low.webp 784w, images/portrait-medium.webp 1568w" 
 								sizes="(max-width: 800px) 784px,
 								1568px"
-								alt="Daniel's portrait with white background" />
+								alt="Portrait of Daniel Mačura" />
 							</span>
 						</div>
 					</section>
