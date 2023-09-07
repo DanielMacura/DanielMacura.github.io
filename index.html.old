@@ -46,7 +46,11 @@
 			  "sameAs": [
 				"https://www.instagram.com/danny_macura/",
 				"https://github.com/DanielMacura",
-				"https://www.facebook.com/danny.macura/"
+				"https://unsplash.com/@daniel_macura",
+				"https://www.facebook.com/danny.macura/",
+				"https://pixabay.com/users/danny112-4945597/",
+				"https://www.cgtrader.com/danielmacura",
+				"https://sketchfab.com/daniel_macura"
 			  ],
 			  "jobTitle": "Computer Science Student",
 			  "worksFor": {
@@ -65,7 +69,7 @@
 					<section class="intro">
 						<header>
 							<h1>Daniel Mačura</h1>
-							<p>Capturing the world through a camera and code</p>
+							<p>Capturing the world through camera and code</p>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly" aria-label="Click to sroll to content"><span class="label">Next</span></a></li>
 							</ul>
